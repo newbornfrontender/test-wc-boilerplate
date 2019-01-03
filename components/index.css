@@ -1,0 +1,15 @@
+div {
+  color: green;
+
+  & span {
+    color1: yellow;
+  }
+}
+
+section {
+  display: flex;
+}
+
+.wrapper {
+  display: grid;
+}

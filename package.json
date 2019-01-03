@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "stylelint:check": "stylelint-config-prettier-check",
+    "stylelint:fix": "stylelint --fix **/*.{html,css}",
+    "exlint:check": "",
+    "exlint:fix": "",
+    "prettier:write": "prettier --write *.{json,yml,md} **/*.{html,css,js}",
+    "serve": "serve public",
+    "rollup": "rollup -c",
+    "rollup:watch": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
+    "babel-preset-minify": "^0.5.0",
+    "cssnano": "^4.1.8",
+    "postcss": "^7.0.7",
+    "postcss-html": "^0.34.0",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-reporter": "^6.0.0",
+    "postcss-syntax": "^0.34.0",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-pluginutils": "^2.3.3",
+    "serve": "^10.1.1",
+    "stylelint": "^9.9.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-recommended": "^2.1.0"
+  }
+}
